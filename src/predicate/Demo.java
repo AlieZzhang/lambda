@@ -20,7 +20,7 @@ public class Demo {
 		System.out.println(p2);
 	}
 	//条件查询
-	//通过filter实现，filter会在之后学习
+	//通过steam实现，steam会在之后学习
 /*public static List<Person> findMatchPerson(List<Person> people,Predicate<? super Person> pred){
 		return people.stream().filter(pred).collect(Collectors.toList());
 	}*/
