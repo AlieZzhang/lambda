@@ -10,5 +10,7 @@ public class IntStreamDemo {
 		System.out.println();
 		IntStream rc2 = IntStream.rangeClosed(30, 50);
 		rc2.forEach(System.out::print);
+		
+		
 	}
 }
