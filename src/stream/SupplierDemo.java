@@ -7,7 +7,6 @@ public class SupplierDemo implements Supplier<Integer> {
 	Integer a = 1;
 	Integer b = 1;
 	public Integer get() {
-		Integer c = a; 
 		Integer x = a + b;
 	        a = b;
 	        b = x;
